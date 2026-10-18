@@ -5,7 +5,6 @@ import Guru from "./components/Guru";
 import Courses from "./components/Courses";
 import Gallery from "./components/Gallery";
 import Videos from "./components/Videos";
-import Achievements from "./components/Achievements";
 import Testimonials from "./components/Testimonials";
 import Locations from "./components/Locations";
 import Contact from "./components/Contact";
@@ -26,7 +25,6 @@ function App() {
         <Courses />
          <Gallery />
          <Videos/>
-         <Achievements/>
          <Testimonials/>
          <Locations/>
          <Contact/>

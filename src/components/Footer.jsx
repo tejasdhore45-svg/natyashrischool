@@ -6,7 +6,10 @@ function Footer() {
 
       <div className="footer-container">
 
-        {/* Brand */}
+        {/* ========================================
+            NATYASHRI BRAND
+        ======================================== */}
+
         <div className="footer-brand">
 
           <span className="footer-eyebrow">
@@ -30,8 +33,11 @@ function Footer() {
         </div>
 
 
-        {/* Explore */}
-        <div className="footer-column">
+        {/* ========================================
+            EXPLORE
+        ======================================== */}
+
+        <nav className="footer-column" aria-label="Explore">
 
           <h3>Explore</h3>
 
@@ -42,11 +48,14 @@ function Footer() {
           <a href="#videos">Videos</a>
           <a href="#events">Events</a>
 
-        </div>
+        </nav>
 
 
-        {/* Admissions */}
-        <div className="footer-column">
+        {/* ========================================
+            ADMISSIONS
+        ======================================== */}
+
+        <nav className="footer-column" aria-label="Admissions">
 
           <h3>Admissions</h3>
 
@@ -56,10 +65,13 @@ function Footer() {
           <a href="#admission">Admission Enquiry</a>
           <a href="#contact">Contact</a>
 
-        </div>
+        </nav>
 
 
-        {/* Contact */}
+        {/* ========================================
+            CONTACT
+        ======================================== */}
+
         <div className="footer-column footer-contact">
 
           <h3>Connect</h3>
@@ -90,16 +102,22 @@ function Footer() {
       </div>
 
 
-      {/* Social */}
+      {/* ========================================
+          SOCIAL MEDIA
+      ======================================== */}
+
       <div className="footer-social">
 
         <div className="footer-social-heading">
+
           <span>Stay Connected</span>
 
           <h3>
             Follow the NatyaShri Journey
           </h3>
+
         </div>
+
 
         <div className="social-links">
 
@@ -132,7 +150,10 @@ function Footer() {
       </div>
 
 
-      {/* Bottom */}
+      {/* ========================================
+          NATYASHRI COPYRIGHT & LEGAL
+      ======================================== */}
+
       <div className="footer-bottom">
 
         <p>
@@ -153,6 +174,46 @@ function Footer() {
           <a href="#terms">
             Terms & Conditions
           </a>
+
+        </div>
+
+      </div>
+
+
+      {/* ========================================
+          BSD FOUNDATION - BRAND SIGNATURE
+
+          Secondary developer branding.
+          NatyaShri remains the primary brand.
+      ======================================== */}
+
+      <div className="bsd-credit">
+
+        {/* Decorative Signature */}
+
+        <div
+          className="bsd-credit-decoration"
+          aria-hidden="true"
+        >
+          <span className="bsd-credit-line"></span>
+
+          <span className="bsd-credit-diamond"></span>
+
+          <span className="bsd-credit-line"></span>
+        </div>
+
+
+        {/* Developer Credit */}
+
+        <div className="bsd-credit-content">
+
+          <span className="bsd-credit-label">
+            Crafted by
+          </span>
+
+          <span className="bsd-credit-name">
+            BSD <span>Foundation</span>
+          </span>
 
         </div>
 
