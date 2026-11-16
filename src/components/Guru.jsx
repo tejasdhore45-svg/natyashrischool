@@ -27,7 +27,7 @@ function Guru() {
           <div className="guru-image">
 
             <img
-              src="/images/guru-placeholder.jpg"
+              src="/images/guru-image.jpg"
               alt="Guru Veenashri Vijaykumar Alange"
             />
 

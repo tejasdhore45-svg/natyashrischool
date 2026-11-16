@@ -4,64 +4,138 @@ function Gallery() {
   const [activeCategory, setActiveCategory] = useState("All");
 
   const galleryItems = [
-    // CLASSES
-    {
-      image: "/images/gallery-1.jpg",
-      category: "Classes",
-      title: "Bharatanatyam Training"
-    },
-    {
-      image: "/images/gallery-2.jpg",
-      category: "Classes",
-      title: "Classical Dance Practice"
-    },
 
     // PERFORMANCES
     {
-      image: "/images/gallery-3.jpg",
+      image: "/images/student-performance1.jpg",
       category: "Performances",
       title: "Classical Performance"
     },
     {
-      image: "/images/gallery-4.jpg",
+      image: "/images/student-performance2.jpg",
       category: "Performances",
       title: "Stage Performance"
+    },
+    {
+      image: "/images/student-performance3.jpg",
+      category: "Performances",
+      title: "Student Performance"
+    },
+    {
+      image: "/images/student-performance4.jpg",
+      category: "Performances",
+      title: "Student Performance"
+    },
+    {
+      image: "/images/student-performance5.jpg",
+      category: "Performances",
+      title: "Student Performance"
+    },
+    {
+      image: "/images/student-performance6.jpg",
+      category: "Performances",
+      title: "Student Performance"
     },
 
     // STUDENTS
     {
+      image: "/images/gallery-1.jpg",
+      category: "Students",
+      title: "NatyaShri Student"
+    },
+     {
+      image: "/images/gallery-2.jpg",
+      category: "Students",
+      title: "NatyaShri Student"
+    },
+     {
       image: "/images/gallery-5.jpg",
       category: "Students",
-      title: "Student Performance"
+      title: "NatyaShri Student"
     },
-    {
-      image: "/images/gallery-6.jpg",
+     {
+      image: "/images/gallery-9.jpg",
       category: "Students",
-      title: "Student Learning"
+      title: "NatyaShri Student"
     },
 
     // GURU
     {
-      image: "/images/gallery-7.jpg",
+      image: "/images/guru-section1.jpg",
       category: "Guru",
       title: "Guru Veenashri"
     },
     {
-      image: "/images/gallery-8.jpg",
+      image: "/images/guru-section2.jpg",
+      category: "Guru",
+      title: "Guru Veenashri"
+    },
+    {
+      image: "/images/guru-section3.jpg",
+      category: "Guru",
+      title: "Guru Veenashri"
+    },
+    {
+      image: "/images/guru-section4.jpg",
+      category: "Guru",
+      title: "Guru Veenashri"
+    },
+    {
+      image: "/images/guru-section5.jpg",
       category: "Guru",
       title: "Guru Veenashri Teaching"
     },
 
     // WORKSHOPS
     {
-      image: "/images/gallery-9.jpg",
+      image: "/images/workshop1.jpg",
       category: "Workshops",
       title: "Classical Dance Workshop"
     },
     {
-      image: "/images/gallery-10.jpg",
+      image: "/images/workshop2.jpg",
       category: "Workshops",
       title: "Bharatanatyam Workshop"
+    },
+    {
+      image: "/images/workshop3.jpg",
+      category: "Workshops",
+      title: "Classical Dance Workshop"
+    },
+    {
+      image: "/images/workshop4.jpg",
+      category: "Workshops",
+      title: "Bharatanatyam Workshop"
+    },
+    {
+      image: "/images/workshop5.jpg",
+      category: "Workshops",
+      title: "Dance Workshop"
+    },
+    {
+      image: "/images/workshop10.jpg",
+      category: "Workshops",
+      title: "Classical Dance Workshop"
+    },
+    {
+      image: "/images/workshop11.jpg",
+      category: "Workshops",
+      title: "Dance Workshop"
+    },
+    {
+      image: "/images/workshop12.jpg",
+      category: "Workshops",
+      title: "Bharatanatyam Workshop"
+    },
+    {
+      image: "/images/workshop13.jpg",
+      category: "Workshops",
+      title: "Classical Dance Workshop"
+    },
+    {
+      image: "/images/workshop14.jpg",
+      category: "Workshops",
+      title: "Dance Workshop"
     },
 
     // EVENTS
@@ -74,7 +148,35 @@ function Gallery() {
       image: "/images/gallery-12.jpg",
       category: "Events",
       title: "NatyaShri Event"
-    }
+    },
+
+
+    // CLASSES
+    {
+      image: "/images/classes1.jpg",
+      category: "Classes",
+      title: "Bharatanatyam Class"
+    },
+    {
+      video: "/images/classes2.mp4",
+      category: "Classes",
+      title: "Bharatanatyam Training"
+    },
+    {
+      video: "/images/classes3.mp4",
+      category: "Classes",
+      title: "Classical Dance Practice"
+    },
+    {
+      video: "/images/classes4.mp4",
+      category: "Classes",
+      title: "Bharatanatyam Performance"
+    },
+    {
+      video: "/images/classes5.mp4",
+      category: "Classes",
+      title: "Dance Learning Session"
+    },
   ];
 
   const categories = [
@@ -99,19 +201,14 @@ function Gallery() {
 
       <div className="gallery-container">
 
-        {/* ================================
-            HEADING
-        ================================= */}
-
+        {/* HEADING */}
         <div className="section-heading">
 
           <p className="section-eyebrow">
             Moments of NatyaShri
           </p>
 
-          <h2>
-            Gallery
-          </h2>
+          <h2>Gallery</h2>
 
           <div className="section-line"></div>
 
@@ -122,12 +219,7 @@ function Gallery() {
 
         </div>
 
-
-        {/* ================================
-            FEATURED DIVINE IMAGE
-            NOT PART OF ANY CATEGORY
-        ================================= */}
-
+        {/* FEATURED DIVINE IMAGE */}
         <div className="gallery-featured">
 
           <img
@@ -138,23 +230,15 @@ function Gallery() {
 
           <div className="gallery-featured-overlay">
 
-            <span>
-              Divine Inspiration
-            </span>
+            <span>Divine Inspiration</span>
 
-            <h3>
-              The Spirit of Natya
-            </h3>
+            <h3>The Spirit of Natya</h3>
 
           </div>
 
         </div>
 
-
-        {/* ================================
-            CATEGORY BUTTONS
-        ================================= */}
-
+        {/* CATEGORY BUTTONS */}
         <div className="gallery-categories">
 
           {categories.map((category) => (
@@ -175,11 +259,7 @@ function Gallery() {
 
         </div>
 
-
-        {/* ================================
-            GALLERY GRID
-        ================================= */}
-
+        {/* GALLERY GRID */}
         <div className="gallery-grid">
 
           {filteredItems.map((item, index) => (
@@ -189,11 +269,33 @@ function Gallery() {
               key={`${item.category}-${index}`}
             >
 
-              <img
-                src={item.image}
-                alt={item.title}
-                loading="lazy"
-              />
+              {/* DISPLAY VIDEO OR IMAGE */}
+              {item.video ? (
+
+                <video
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="gallery-video"
+                >
+                  <source
+                    src={item.video}
+                    type="video/mp4"
+                  />
+
+                  Your browser does not support video playback.
+
+                </video>
+
+              ) : (
+
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  loading="lazy"
+                />
+
+              )}
 
               <div className="gallery-overlay">
 

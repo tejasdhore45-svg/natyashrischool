@@ -3625,6 +3625,24 @@ button {
   color: var(--color-maroon-dark);
 }
 
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.gallery-overlay {
+  pointer-events: none;
+}
+
 
 /* =========================================================
    CONTAINER
