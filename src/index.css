@@ -78,12 +78,10 @@ button {
   padding: 18px 0 12px;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       #160407 0%,
       #26070d 65%,
-      #180407 100%
-    );
+      #180407 100%);
 
   border-bottom:
     1px solid rgba(198, 161, 91, 0.18);
@@ -97,10 +95,8 @@ button {
 ========================================================= */
 
 .navbar-container {
-  width: min(
-    calc(100% - 80px),
-    1440px
-  );
+  width: min(calc(100% - 80px),
+      1440px);
 
   margin: 0 auto;
 
@@ -124,30 +120,23 @@ button {
   align-items: center;
 
   border:
-    1px solid
-    rgba(221, 176, 65, 0.95);
+    1px solid rgba(221, 176, 65, 0.95);
 
   border-radius: 60px;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       rgba(74, 5, 17, 0.98),
-      rgba(35, 3, 9, 0.98)
-    );
+      rgba(35, 3, 9, 0.98));
 
   box-shadow:
-    inset 0 1px 0
-      rgba(255, 226, 133, 0.12),
+    inset 0 1px 0 rgba(255, 226, 133, 0.12),
 
-    inset 0 -1px 0
-      rgba(0, 0, 0, 0.55),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.55),
 
-    0 12px 35px
-      rgba(0, 0, 0, 0.42),
+    0 12px 35px rgba(0, 0, 0, 0.42),
 
-    0 0 25px
-      rgba(196, 139, 29, 0.08);
+    0 0 25px rgba(196, 139, 29, 0.08);
 
   overflow: visible;
 }
@@ -169,14 +158,12 @@ button {
   height: 2px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       transparent,
       #f5cf63,
       #fff0a5,
       #f5cf63,
-      transparent
-    );
+      transparent);
 
   filter:
     blur(0.3px);
@@ -201,16 +188,13 @@ button {
   height: 2px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       transparent,
       #f2c84b,
-      transparent
-    );
+      transparent);
 
   box-shadow:
-    0 0 8px
-      rgba(235, 188, 61, 0.7);
+    0 0 8px rgba(235, 188, 61, 0.7);
 }
 
 
@@ -261,14 +245,10 @@ button {
   transform-origin: center;
 
   filter:
-    drop-shadow(
-      0 3px 4px
-      rgba(0, 0, 0, 0.55)
-    );
+    drop-shadow(0 3px 4px rgba(0, 0, 0, 0.55));
 
   transition:
-    transform 0.45s
-      cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
 
     filter 0.45s ease;
 }
@@ -287,12 +267,10 @@ button {
   border-radius: 50%;
 
   background:
-    radial-gradient(
-      ellipse,
+    radial-gradient(ellipse,
       rgba(239, 190, 52, 0.25),
       rgba(239, 190, 52, 0.08) 40%,
-      transparent 72%
-    );
+      transparent 72%);
 
   filter: blur(9px);
 
@@ -304,8 +282,7 @@ button {
 
   transition:
     opacity 0.45s ease,
-    transform 0.5s
-      cubic-bezier(0.22, 1, 0.36, 1);
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 
@@ -318,14 +295,7 @@ button {
     scale(1.045);
 
   filter:
-    drop-shadow(
-      0 3px 5px
-      rgba(0, 0, 0, 0.55)
-    )
-    drop-shadow(
-      0 0 13px
-      rgba(235, 188, 61, 0.38)
-    );
+    drop-shadow(0 3px 5px rgba(0, 0, 0, 0.55)) drop-shadow(0 0 13px rgba(235, 188, 61, 0.38));
 }
 
 
@@ -415,22 +385,18 @@ button {
   height: 1px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       transparent,
       var(--color-gold),
-      transparent
-    );
+      transparent);
 
   transform:
-    translateX(-50%)
-    scaleX(0);
+    translateX(-50%) scaleX(0);
 
   transform-origin: center;
 
   transition:
-    transform 0.35s
-      cubic-bezier(0.22, 1, 0.36, 1);
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 
@@ -445,8 +411,7 @@ button {
 
 .navbar-links a:hover::after {
   transform:
-    translateX(-50%)
-    scaleX(1);
+    translateX(-50%) scaleX(1);
 }
 
 
@@ -463,8 +428,7 @@ button {
   line-height: 1;
 
   text-shadow:
-    0 0 7px
-    rgba(230, 181, 45, 0.65);
+    0 0 7px rgba(230, 181, 45, 0.65);
 
   opacity: 0.95;
 
@@ -476,8 +440,7 @@ button {
 
 .nav-divider:hover {
   transform:
-    rotate(45deg)
-    scale(1.2);
+    rotate(45deg) scale(1.2);
 
   opacity: 1;
 }
@@ -507,18 +470,15 @@ button {
   gap: 17px;
 
   border:
-    1px solid
-    #e8bd4b;
+    1px solid #e8bd4b;
 
   border-radius: 32px;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       #fff0a8 0%,
       #f2c75b 48%,
-      #dca936 100%
-    );
+      #dca936 100%);
 
   color:
     #351006;
@@ -538,21 +498,16 @@ button {
   text-decoration: none;
 
   box-shadow:
-    inset 0 1px 1px
-      rgba(255, 255, 255, 0.65),
+    inset 0 1px 1px rgba(255, 255, 255, 0.65),
 
-    inset 0 -2px 3px
-      rgba(112, 65, 0, 0.22),
+    inset 0 -2px 3px rgba(112, 65, 0, 0.22),
 
-    0 0 0 3px
-      rgba(208, 157, 39, 0.12),
+    0 0 0 3px rgba(208, 157, 39, 0.12),
 
-    0 5px 15px
-      rgba(0, 0, 0, 0.3);
+    0 5px 15px rgba(0, 0, 0, 0.3);
 
   transition:
-    transform 0.35s
-      cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
 
     box-shadow 0.35s ease,
 
@@ -572,8 +527,7 @@ button {
   inset: 4px;
 
   border:
-    1px solid
-    rgba(111, 65, 0, 0.35);
+    1px solid rgba(111, 65, 0, 0.35);
 
   border-radius: 28px;
 
@@ -593,17 +547,13 @@ button {
     brightness(1.05);
 
   box-shadow:
-    inset 0 1px 1px
-      rgba(255, 255, 255, 0.7),
+    inset 0 1px 1px rgba(255, 255, 255, 0.7),
 
-    0 0 0 4px
-      rgba(220, 174, 53, 0.13),
+    0 0 0 4px rgba(220, 174, 53, 0.13),
 
-    0 0 22px
-      rgba(235, 188, 61, 0.32),
+    0 0 22px rgba(235, 188, 61, 0.32),
 
-    0 8px 22px
-      rgba(0, 0, 0, 0.35);
+    0 8px 22px rgba(0, 0, 0, 0.35);
 }
 
 
@@ -651,8 +601,7 @@ button {
   padding: 0;
 
   border:
-    1px solid
-    rgba(221, 176, 65, 0.55);
+    1px solid rgba(221, 176, 65, 0.55);
 
   border-radius: 50%;
 
@@ -888,25 +837,20 @@ button {
       0;
 
     border:
-      1px solid
-      rgba(221, 176, 65, 0.55);
+      1px solid rgba(221, 176, 65, 0.55);
 
     border-radius:
       22px;
 
     background:
-      linear-gradient(
-        180deg,
+      linear-gradient(180deg,
         #350811,
-        #1c0408
-      );
+        #1c0408);
 
     box-shadow:
-      0 20px 45px
-      rgba(0, 0, 0, 0.5),
+      0 20px 45px rgba(0, 0, 0, 0.5),
 
-      0 0 25px
-      rgba(198, 161, 91, 0.08);
+      0 0 25px rgba(198, 161, 91, 0.08);
 
     opacity:
       0;
@@ -944,7 +888,7 @@ button {
 
   /* Mobile links */
 
-  .navbar-links > a:not(.mobile-nav-button) {
+  .navbar-links>a:not(.mobile-nav-button) {
 
     width:
       100%;
@@ -956,8 +900,7 @@ button {
       15px 10px;
 
     border-bottom:
-      1px solid
-      rgba(248, 243, 232, 0.08);
+      1px solid rgba(248, 243, 232, 0.08);
 
     font-size:
       0.72rem;
@@ -992,18 +935,15 @@ button {
       12px;
 
     border:
-      1px solid
-      var(--color-gold);
+      1px solid var(--color-gold);
 
     border-radius:
       28px;
 
     background:
-      linear-gradient(
-        180deg,
+      linear-gradient(180deg,
         #fff0a8,
-        #e1ad3d
-      );
+        #e1ad3d);
 
     color:
       #351006;
@@ -1027,28 +967,23 @@ button {
 
   /* Hamburger X */
 
-  .navbar-menu-button.menu-open
-  span:nth-child(1) {
+  .navbar-menu-button.menu-open span:nth-child(1) {
     transform:
-      translateY(6.5px)
-      rotate(45deg);
+      translateY(6.5px) rotate(45deg);
   }
 
-  .navbar-menu-button.menu-open
-  span:nth-child(2) {
+  .navbar-menu-button.menu-open span:nth-child(2) {
     opacity:
       0;
   }
 
-  .navbar-menu-button.menu-open
-  span:nth-child(3) {
+  .navbar-menu-button.menu-open span:nth-child(3) {
     transform:
-      translateY(-6.5px)
-      rotate(-45deg);
+      translateY(-6.5px) rotate(-45deg);
   }
 }
 
-  /* ========================================
+/* ========================================
    FIX DUPLICATE ENQUIRE NOW BUTTON
 ======================================== */
 
@@ -1189,7 +1124,7 @@ button {
   }
 }
 
-  /* ========================================
+/* ========================================
    FIX DUPLICATE ENQUIRE NOW BUTTON
 ======================================== */
 
@@ -1258,11 +1193,9 @@ button {
 
   font-family: var(--font-heading);
 
-  font-size: clamp(
-    2.2rem,
-    5vw,
-    4rem
-  );
+  font-size: clamp(2.2rem,
+      5vw,
+      4rem);
 
   font-weight: 500;
 
@@ -1320,8 +1253,7 @@ button {
   display: grid;
 
   grid-template-columns:
-    minmax(0, 0.95fr)
-    minmax(0, 1.05fr);
+    minmax(0, 0.95fr) minmax(0, 1.05fr);
 
   gap: clamp(45px, 7vw, 85px);
 
@@ -1358,8 +1290,7 @@ button {
 
   inset: 15px;
 
-  border: 1px solid
-    rgba(198, 161, 91, 0.65);
+  border: 1px solid rgba(198, 161, 91, 0.65);
 
   pointer-events: none;
 
@@ -1384,12 +1315,10 @@ button {
   object-position: center;
 
   transition:
-    transform 0.9s cubic-bezier(
-      0.2,
+    transform 0.9s cubic-bezier(0.2,
       0.65,
       0.3,
-      1
-    );
+      1);
 }
 
 
@@ -1422,11 +1351,9 @@ button {
 
   font-family: var(--font-heading);
 
-  font-size: clamp(
-    1.25rem,
-    2.3vw,
-    1.7rem
-  );
+  font-size: clamp(1.25rem,
+      2.3vw,
+      1.7rem);
 
   line-height: 1.5;
 
@@ -1440,11 +1367,9 @@ button {
 
   font-family: var(--font-body);
 
-  font-size: clamp(
-    0.9rem,
-    1.2vw,
-    0.98rem
-  );
+  font-size: clamp(0.9rem,
+      1.2vw,
+      0.98rem);
 
   line-height: 1.85;
 }
@@ -1474,8 +1399,7 @@ button {
 
   padding: 7px 13px;
 
-  border: 1px solid
-    rgba(116, 42, 47, 0.18);
+  border: 1px solid rgba(116, 42, 47, 0.18);
 
   background-color:
     rgba(198, 161, 91, 0.06);
@@ -1533,8 +1457,7 @@ button {
 
   .introduction {
     padding:
-      85px
-      20px;
+      85px 20px;
   }
 
   .section-heading {
@@ -1575,8 +1498,7 @@ button {
 
   .introduction {
     padding:
-      70px
-      16px;
+      70px 16px;
   }
 
   .section-heading {
@@ -1594,11 +1516,9 @@ button {
   }
 
   .section-heading h2 {
-    font-size: clamp(
-      2rem,
-      9vw,
-      2.8rem
-    );
+    font-size: clamp(2rem,
+        9vw,
+        2.8rem);
 
     line-height: 1.12;
   }
@@ -1667,8 +1587,7 @@ button {
 
   .introduction {
     padding:
-      60px
-      14px;
+      60px 14px;
   }
 
   .section-heading {
@@ -1717,8 +1636,7 @@ button {
     font-size: 0.63rem;
 
     padding:
-      6px
-      9px;
+      6px 9px;
   }
 }
 
@@ -1731,8 +1649,7 @@ button {
 
   .introduction {
     padding:
-      52px
-      12px;
+      52px 12px;
   }
 
   .section-heading h2 {
@@ -1800,11 +1717,9 @@ button {
   border-radius: 50%;
 
   background:
-    radial-gradient(
-      circle,
+    radial-gradient(circle,
       rgba(198, 161, 91, 0.08),
-      transparent 70%
-    );
+      transparent 70%);
 
   pointer-events: none;
 }
@@ -1846,8 +1761,7 @@ button {
   display: grid;
 
   grid-template-columns:
-    minmax(0, 0.85fr)
-    minmax(0, 1.15fr);
+    minmax(0, 0.85fr) minmax(0, 1.15fr);
 
   gap: clamp(45px, 7vw, 85px);
 
@@ -1888,8 +1802,7 @@ button {
 
   z-index: 2;
 
-  border: 1px solid
-    rgba(214, 173, 91, 0.7);
+  border: 1px solid rgba(214, 173, 91, 0.7);
 
   pointer-events: none;
 
@@ -1912,12 +1825,10 @@ button {
   object-position: center;
 
   transition:
-    transform 0.9s cubic-bezier(
-      0.2,
+    transform 0.9s cubic-bezier(0.2,
       0.65,
       0.3,
-      1
-    );
+      1);
 }
 
 
@@ -1972,11 +1883,9 @@ button {
 
   font-family: var(--font-heading);
 
-  font-size: clamp(
-    2.3rem,
-    5vw,
-    4.2rem
-  );
+  font-size: clamp(2.3rem,
+      5vw,
+      4.2rem);
 
   font-weight: 500;
 
@@ -1998,7 +1907,7 @@ button {
   margin-top: 30px;
 }
 
-.guru-content > p:not(.guru-label) {
+.guru-content>p:not(.guru-label) {
   max-width: 650px;
 
   margin-bottom: 20px;
@@ -2006,11 +1915,9 @@ button {
   color:
     rgba(248, 243, 232, 0.78);
 
-  font-size: clamp(
-    0.9rem,
-    1.2vw,
-    0.98rem
-  );
+  font-size: clamp(0.9rem,
+      1.2vw,
+      0.98rem);
 
   line-height: 1.85;
 }
@@ -2026,8 +1933,7 @@ button {
   padding-top: 24px;
 
   border-top:
-    1px solid
-    rgba(214, 173, 91, 0.25);
+    1px solid rgba(214, 173, 91, 0.25);
 }
 
 .guru-details h4 {
@@ -2128,14 +2034,12 @@ button {
   }
 
   .guru-content h3 {
-    font-size: clamp(
-      2.2rem,
-      5.5vw,
-      3.5rem
-    );
+    font-size: clamp(2.2rem,
+        5.5vw,
+        3.5rem);
   }
 
-  .guru-content > p:not(.guru-label) {
+  .guru-content>p:not(.guru-label) {
     line-height: 1.75;
   }
 }
@@ -2149,8 +2053,7 @@ button {
 
   .guru {
     padding:
-      85px
-      20px;
+      85px 20px;
   }
 
   .guru-grid {
@@ -2172,11 +2075,9 @@ button {
   }
 
   .guru-content h3 {
-    font-size: clamp(
-      2.4rem,
-      7vw,
-      4rem
-    );
+    font-size: clamp(2.4rem,
+        7vw,
+        4rem);
   }
 }
 
@@ -2189,8 +2090,7 @@ button {
 
   .guru {
     padding:
-      70px
-      16px;
+      70px 16px;
   }
 
   .guru-heading {
@@ -2224,11 +2124,9 @@ button {
   }
 
   .guru-content h3 {
-    font-size: clamp(
-      2.2rem,
-      10vw,
-      3.3rem
-    );
+    font-size: clamp(2.2rem,
+        10vw,
+        3.3rem);
 
     line-height: 1.05;
   }
@@ -2237,7 +2135,7 @@ button {
     margin-top: 23px;
   }
 
-  .guru-content > p:not(.guru-label) {
+  .guru-content>p:not(.guru-label) {
     margin-bottom: 17px;
 
     font-size: 0.87rem;
@@ -2279,8 +2177,7 @@ button {
 
   .guru {
     padding:
-      60px
-      14px;
+      60px 14px;
   }
 
   .guru-heading {
@@ -2303,7 +2200,7 @@ button {
     margin-top: 20px;
   }
 
-  .guru-content > p:not(.guru-label) {
+  .guru-content>p:not(.guru-label) {
     font-size: 0.82rem;
 
     line-height: 1.7;
@@ -2339,15 +2236,14 @@ button {
 
   .guru {
     padding:
-      52px
-      12px;
+      52px 12px;
   }
 
   .guru-content h3 {
     font-size: 1.95rem;
   }
 
-  .guru-content > p:not(.guru-label) {
+  .guru-content>p:not(.guru-label) {
     font-size: 0.78rem;
   }
 
@@ -2369,6 +2265,7 @@ button {
     transition: none;
   }
 }
+
 /* ========================================
    COURSES — FINAL PREMIUM VERSION
 ======================================== */
@@ -2414,11 +2311,9 @@ button {
   border-radius: 50%;
 
   background:
-    radial-gradient(
-      circle,
+    radial-gradient(circle,
       rgba(198, 161, 91, 0.08),
-      transparent 70%
-    );
+      transparent 70%);
 
   pointer-events: none;
 }
@@ -2443,11 +2338,9 @@ button {
 
   color: #66534c;
 
-  font-size: clamp(
-    0.88rem,
-    1.2vw,
-    0.98rem
-  );
+  font-size: clamp(0.88rem,
+      1.2vw,
+      0.98rem);
 
   line-height: 1.8;
 }
@@ -2467,8 +2360,7 @@ button {
 
   overflow: hidden;
 
-  border: 1px solid
-    rgba(116, 42, 47, 0.18);
+  border: 1px solid rgba(116, 42, 47, 0.18);
 
   background-color:
     rgba(116, 42, 47, 0.18);
@@ -2533,11 +2425,9 @@ button {
   border-radius: 50%;
 
   background:
-    radial-gradient(
-      circle,
+    radial-gradient(circle,
       rgba(198, 161, 91, 0.09),
-      transparent 70%
-    );
+      transparent 70%);
 
   opacity: 0;
 
@@ -2607,11 +2497,9 @@ button {
 
   font-family: var(--font-heading);
 
-  font-size: clamp(
-    1.35rem,
-    2vw,
-    1.65rem
-  );
+  font-size: clamp(1.35rem,
+      2vw,
+      1.65rem);
 
   font-weight: 500;
 
@@ -2690,15 +2578,12 @@ button {
 
   padding: 25px 30px;
 
-  border: 1px solid
-    rgba(180, 137, 70, 0.35);
+  border: 1px solid rgba(180, 137, 70, 0.35);
 
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       rgba(180, 137, 70, 0.08),
-      rgba(180, 137, 70, 0.03)
-    );
+      rgba(180, 137, 70, 0.03));
 }
 
 .course-fee-note p {
@@ -2757,8 +2642,7 @@ button {
   transform: translateY(-3px);
 
   box-shadow:
-    0 10px 25px
-    rgba(43, 13, 17, 0.18);
+    0 10px 25px rgba(43, 13, 17, 0.18);
 }
 
 
@@ -2770,8 +2654,7 @@ button {
 
   .courses {
     padding:
-      90px
-      20px;
+      90px 20px;
   }
 
   .course-card {
@@ -2792,8 +2675,7 @@ button {
 
   .courses {
     padding:
-      80px
-      20px;
+      80px 20px;
   }
 
   .courses-grid {
@@ -2834,8 +2716,7 @@ button {
 
   .courses {
     padding:
-      70px
-      16px;
+      70px 16px;
   }
 
   .courses-heading {
@@ -2907,8 +2788,7 @@ button {
 
   .courses {
     padding:
-      60px
-      14px;
+      60px 14px;
   }
 
   .course-card {
@@ -2925,8 +2805,7 @@ button {
 
   .course-fee-note {
     padding:
-      20px
-      16px;
+      20px 16px;
   }
 
   .fee-whatsapp-button {
@@ -2945,8 +2824,7 @@ button {
 
   .courses {
     padding:
-      52px
-      12px;
+      52px 12px;
   }
 
   .course-card {
@@ -3210,11 +3088,9 @@ button {
   border: 1px solid rgba(116, 42, 47, 0.14);
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       rgba(255, 255, 255, 0.25),
-      transparent
-    ),
+      transparent),
     var(--color-beige);
 
   transition:
@@ -3615,11 +3491,9 @@ button {
   overflow: hidden;
 
   background:
-    radial-gradient(
-      circle at 10% 15%,
+    radial-gradient(circle at 10% 15%,
       rgba(184, 145, 76, 0.06),
-      transparent 28%
-    ),
+      transparent 28%),
     var(--color-ivory);
 
   color: var(--color-maroon-dark);
@@ -3810,12 +3684,10 @@ button {
   z-index: 1;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       rgba(43, 13, 17, 0.02) 25%,
       rgba(43, 13, 17, 0.15) 50%,
-      rgba(43, 13, 17, 0.9) 100%
-    );
+      rgba(43, 13, 17, 0.9) 100%);
 
   opacity: 0.75;
 
@@ -4178,10 +4050,8 @@ button {
 
   padding: 90px 40px 35px;
 
-  background: linear-gradient(
-    transparent,
-    rgba(43, 13, 17, 0.85)
-  );
+  background: linear-gradient(transparent,
+      rgba(43, 13, 17, 0.85));
 
   color: var(--color-ivory);
 }
@@ -4297,11 +4167,9 @@ button {
   overflow: hidden;
 
   background:
-    radial-gradient(
-      circle at 88% 75%,
+    radial-gradient(circle at 88% 75%,
       rgba(184, 145, 76, 0.055),
-      transparent 28%
-    ),
+      transparent 28%),
     var(--color-ivory);
 
   color: var(--color-maroon-dark);
@@ -4411,11 +4279,9 @@ button {
   border: 1px solid rgba(116, 42, 47, 0.14);
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       rgba(255, 255, 255, 0.30),
-      transparent
-    ),
+      transparent),
     var(--color-beige);
 
   transition:
@@ -4804,16 +4670,12 @@ button {
   overflow: hidden;
 
   background:
-    radial-gradient(
-      circle at 12% 20%,
+    radial-gradient(circle at 12% 20%,
       rgba(214, 173, 91, 0.055),
-      transparent 28%
-    ),
-    linear-gradient(
-      135deg,
+      transparent 28%),
+    linear-gradient(135deg,
       var(--color-maroon-dark),
-      #4a1f23
-    );
+      #4a1f23);
 
   color: var(--color-ivory);
 }
@@ -4943,11 +4805,9 @@ button {
   border: 1px solid rgba(214, 173, 91, 0.24);
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       rgba(255, 255, 255, 0.035),
-      rgba(255, 255, 255, 0.012)
-    );
+      rgba(255, 255, 255, 0.012));
 
   transition:
     transform 0.45s cubic-bezier(0.2, 0.65, 0.3, 1),
@@ -5422,11 +5282,9 @@ button {
   padding: 130px 24px;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       var(--color-ivory) 0%,
-      #f4ecdc 100%
-    );
+      #f4ecdc 100%);
 
   color: var(--color-maroon-dark);
 
@@ -5615,7 +5473,7 @@ button {
    MAIN CONTACT LINK
 ======================================== */
 
-.contact-item > a {
+.contact-item>a {
   display: inline-block;
 
   margin-top: 28px;
@@ -5637,7 +5495,7 @@ button {
     transform 0.3s ease;
 }
 
-.contact-item > a:hover {
+.contact-item>a:hover {
   color: var(--color-gold);
 
   transform: translateX(4px);
@@ -5700,11 +5558,9 @@ button {
   padding: 42px 45px;
 
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       var(--color-maroon-dark),
-      #4d1c21
-    );
+      #4d1c21);
 
   color: var(--color-ivory);
 
@@ -5892,7 +5748,7 @@ button {
     padding: 30px 25px;
   }
 
-  .contact-item > a {
+  .contact-item>a {
     margin-top: 20px;
 
     font-size: 1.1rem;
@@ -5938,7 +5794,7 @@ button {
     padding: 25px 20px;
   }
 
-  .contact-item > a {
+  .contact-item>a {
     font-size: 1rem;
   }
 
@@ -5972,11 +5828,9 @@ button {
   padding: 110px 20px;
 
   background:
-    linear-gradient(
-      160deg,
+    linear-gradient(160deg,
       var(--ns-beige),
-      var(--ns-ivory)
-    );
+      var(--ns-ivory));
 
   color: var(--ns-maroon);
 
@@ -6109,12 +5963,10 @@ button {
   height: 4px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       var(--ns-maroon),
       var(--ns-gold),
-      var(--ns-maroon)
-    );
+      var(--ns-maroon));
 
 }
 
@@ -6490,7 +6342,7 @@ button {
 
 }
 
-.ns-success > p {
+.ns-success>p {
 
   max-width: 530px;
   margin: 0 auto;
@@ -6900,12 +6752,7 @@ button {
 ======================================== */
 
 .whatsapp-floating {
-  position: fixed;
 
-  right: 24px;
-  bottom: 24px;
-
-  z-index: 1000;
 
   width: 58px;
   height: 58px;
@@ -6994,8 +6841,7 @@ button {
 @media (max-width: 800px) {
 
   .whatsapp-floating {
-    right: 20px;
-    bottom: 20px;
+    
 
     width: 56px;
     height: 56px;
@@ -7011,8 +6857,7 @@ button {
 @media (max-width: 500px) {
 
   .whatsapp-floating {
-    right: 16px;
-    bottom: 16px;
+    
 
     width: 54px;
     height: 54px;
@@ -7032,8 +6877,7 @@ button {
 @media (max-width: 360px) {
 
   .whatsapp-floating {
-    right: 14px;
-    bottom: 14px;
+   
 
     width: 50px;
     height: 50px;
@@ -7058,17 +6902,12 @@ button {
   }
 
 }
+
 /* ========================================
    NATYASHRI AI CHATBOT
 ======================================== */
 
 .chatbot-floating {
-  position: fixed;
-
-  right: 24px;
-  bottom: 94px;
-
-  z-index: 1000;
 
   width: 58px;
   height: 58px;
@@ -7186,10 +7025,136 @@ button {
 
 
 /* ========================================
+   NATYASHRI PREMIUM AI CHATBOT
+======================================== */
+
+.chatbot-floating {
+  
+
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+
+  border: 1px solid rgba(214, 173, 91, 0.45);
+  border-radius: 50%;
+
+  background: var(--color-maroon-dark);
+  color: var(--color-gold);
+
+  font-size: 1.35rem;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.18),
+    0 2px 10px rgba(116, 42, 47, 0.18);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* ========================================
+   FLOATING BUTTON HOVER
+======================================== */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .chatbot-floating:hover {
+    transform: translateY(-4px) scale(1.06);
+
+    background: var(--color-maroon);
+
+    box-shadow:
+      0 14px 32px rgba(0, 0, 0, 0.23),
+      0 4px 14px rgba(116, 42, 47, 0.25);
+  }
+
+}
+
+
+/* ========================================
+   KEYBOARD ACCESSIBILITY
+======================================== */
+
+.chatbot-floating:focus-visible,
+.chatbot-close:focus-visible,
+.chatbot-input button:focus-visible,
+.chatbot-chip:focus-visible {
+
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+
+}
+
+
+/* ========================================
+   CHAT WINDOW
+======================================== */
+
+.chatbot-window {
+  position: fixed;
+
+  right: 24px;
+  bottom: 164px;
+
+  z-index: 1001;
+
+  width: 370px;
+  max-width: calc(100vw - 40px);
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+
+  background: var(--color-ivory);
+
+  border: 1px solid rgba(116, 42, 47, 0.18);
+
+  box-shadow:
+    0 20px 55px rgba(0, 0, 0, 0.22),
+    0 5px 18px rgba(116, 42, 47, 0.08);
+
+  animation: chatbotOpen 0.25s ease;
+
+}
+
+
+/* ========================================
+   OPEN ANIMATION
+======================================== */
+
+@keyframes chatbotOpen {
+
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+}
+
+
+/* ========================================
    HEADER
 ======================================== */
 
 .chatbot-header {
+
   display: flex;
 
   align-items: center;
@@ -7200,17 +7165,17 @@ button {
   padding: 18px 20px;
 
   background:
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       var(--color-maroon-dark),
-      var(--color-maroon)
-    );
+      var(--color-maroon));
 
   color: var(--color-ivory);
+
 }
 
 
 .chatbot-header strong {
+
   display: block;
 
   font-family: var(--font-heading);
@@ -7220,10 +7185,12 @@ button {
   font-weight: 500;
 
   line-height: 1.3;
+
 }
 
 
 .chatbot-header span {
+
   display: block;
 
   margin-top: 5px;
@@ -7233,6 +7200,7 @@ button {
   font-size: 0.65rem;
 
   letter-spacing: 0.04em;
+
 }
 
 
@@ -7241,6 +7209,7 @@ button {
 ======================================== */
 
 .chatbot-close {
+
   flex-shrink: 0;
 
   width: 34px;
@@ -7268,15 +7237,18 @@ button {
     background-color 0.25s ease,
     color 0.25s ease,
     transform 0.25s ease;
+
 }
 
 
 .chatbot-close:hover {
+
   background-color: var(--color-gold);
 
   color: var(--color-maroon-dark);
 
   transform: rotate(90deg);
+
 }
 
 
@@ -7285,6 +7257,7 @@ button {
 ======================================== */
 
 .chatbot-body {
+
   min-height: 220px;
   max-height: 350px;
 
@@ -7297,13 +7270,12 @@ button {
   gap: 10px;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       #f8f3e8 0%,
-      var(--color-ivory) 100%
-    );
+      var(--color-ivory) 100%);
 
   scrollbar-width: thin;
+
 }
 
 
@@ -7312,6 +7284,7 @@ button {
 ======================================== */
 
 .chatbot-message {
+
   width: fit-content;
 
   max-width: 88%;
@@ -7335,6 +7308,7 @@ button {
   white-space: pre-wrap;
 
   animation: chatbotMessageIn 0.2s ease;
+
 }
 
 
@@ -7353,16 +7327,21 @@ button {
 }
 
 
-/* Bot message (default styling above already matches this) */
+/* Bot Message */
+
 .chatbot-message.bot {
+
   align-self: flex-start;
 
   border-radius: 2px 12px 12px 12px;
+
 }
 
 
-/* User message — mirrored bubble, on the right, brand-colored */
+/* User Message */
+
 .chatbot-message.user {
+
   align-self: flex-end;
 
   background: var(--color-maroon-dark);
@@ -7372,6 +7351,7 @@ button {
   border: 1px solid rgba(116, 42, 47, 0.18);
 
   border-radius: 12px 2px 12px 12px;
+
 }
 
 
@@ -7380,6 +7360,7 @@ button {
 ======================================== */
 
 .chatbot-typing {
+
   display: flex;
 
   align-items: center;
@@ -7387,10 +7368,12 @@ button {
   gap: 5px;
 
   padding: 15px 17px;
+
 }
 
 
 .chatbot-typing .dot {
+
   width: 6px;
   height: 6px;
 
@@ -7399,6 +7382,7 @@ button {
   background: rgba(116, 42, 47, 0.4);
 
   animation: chatbotTypingBounce 1.1s infinite ease-in-out;
+
 }
 
 
@@ -7414,15 +7398,15 @@ button {
 
 @keyframes chatbotTypingBounce {
 
-  0%, 60%, 100% {
+  0%,
+  60%,
+  100% {
     transform: translateY(0);
-
     opacity: 0.5;
   }
 
   30% {
     transform: translateY(-4px);
-
     opacity: 1;
   }
 
@@ -7434,6 +7418,7 @@ button {
 ======================================== */
 
 .chatbot-quick-replies {
+
   display: flex;
 
   flex-wrap: wrap;
@@ -7441,10 +7426,12 @@ button {
   gap: 8px;
 
   margin-top: 2px;
+
 }
 
 
 .chatbot-chip {
+
   padding: 8px 13px;
 
   border: 1px solid rgba(116, 42, 47, 0.25);
@@ -7464,15 +7451,18 @@ button {
     background-color 0.2s ease,
     color 0.2s ease,
     border-color 0.2s ease;
+
 }
 
 
 .chatbot-chip:hover {
+
   background: var(--color-maroon-dark);
 
   color: var(--color-ivory);
 
   border-color: var(--color-maroon-dark);
+
 }
 
 
@@ -7481,6 +7471,7 @@ button {
 ======================================== */
 
 .chatbot-input {
+
   display: flex;
 
   gap: 8px;
@@ -7490,10 +7481,12 @@ button {
   border-top: 1px solid rgba(116, 42, 47, 0.12);
 
   background: var(--color-ivory);
+
 }
 
 
 .chatbot-input input {
+
   flex: 1;
 
   min-width: 0;
@@ -7519,6 +7512,7 @@ button {
   transition:
     border-color 0.25s ease,
     box-shadow 0.25s ease;
+
 }
 
 
@@ -7528,10 +7522,12 @@ button {
 
 
 .chatbot-input input:focus {
+
   border-color: var(--color-gold);
 
   box-shadow:
     0 0 0 3px rgba(214, 173, 91, 0.08);
+
 }
 
 
@@ -7540,6 +7536,7 @@ button {
 ======================================== */
 
 .chatbot-input button {
+
   flex-shrink: 0;
 
   width: 44px;
@@ -7559,101 +7556,127 @@ button {
     background-color 0.25s ease,
     color 0.25s ease,
     opacity 0.25s ease;
+
 }
 
 
 .chatbot-input button:hover {
+
   background: var(--color-gold);
 
   color: var(--color-maroon-dark);
+
 }
 
 
 .chatbot-input button:disabled {
+
   opacity: 0.45;
 
   cursor: not-allowed;
+
 }
 
 
 .chatbot-input button:disabled:hover {
+
   background: var(--color-maroon-dark);
 
   color: var(--color-gold);
+
 }
 
 
 /* ========================================
-   TABLET
+   TABLET RESPONSIVE
 ======================================== */
 
 @media (max-width: 800px) {
 
-  .chatbot-floating {
-    right: 20px;
-    bottom: 90px;
-
-    width: 56px;
-    height: 56px;
-  }
+  
 
   .chatbot-window {
+
     right: 20px;
-    bottom: 158px;
+    bottom: 155px;
 
     width: 360px;
     max-width: calc(100vw - 40px);
+
   }
 
 }
 
 
 /* ========================================
-   MOBILE
+   MOBILE RESPONSIVE
 ======================================== */
 
 @media (max-width: 600px) {
 
-  .chatbot-floating {
-    right: 16px;
-    bottom: 82px;
+  /* Floating Chatbot Button */
 
-    width: 54px;
-    height: 54px;
+  
 
-    font-size: 1.2rem;
-  }
 
+  /* Chat Window */
 
   .chatbot-window {
+
+    position: fixed;
+
     right: 12px;
-    bottom: 148px;
+    bottom: 90px;
 
     width: calc(100vw - 24px);
-    max-width: none;
+    max-width: 370px;
 
-    max-height: calc(100dvh - 170px);
+    max-height: calc(100dvh - 120px);
+
+    z-index: 1003;
+
   }
 
+
+  /* Header */
 
   .chatbot-header {
-    padding: 16px;
+
+    padding: 15px;
+
   }
 
+
+  /* Chat Body */
 
   .chatbot-body {
-    min-height: 180px;
 
-    max-height: calc(100dvh - 330px);
+    min-height: 160px;
 
-    padding: 16px;
+    max-height: calc(100dvh - 290px);
+
+    padding: 15px;
+
   }
 
 
+  /* Messages */
+
   .chatbot-message {
+
     max-width: 92%;
 
     font-size: 0.8rem;
+
+  }
+
+
+  /* Input */
+
+  .chatbot-input {
+
+    padding: 10px;
+
   }
 
 }
@@ -7665,53 +7688,62 @@ button {
 
 @media (max-width: 380px) {
 
-  .chatbot-floating {
-    right: 14px;
-    bottom: 76px;
-
-    width: 50px;
-    height: 50px;
-  }
 
 
   .chatbot-window {
+
     right: 10px;
-    bottom: 136px;
+    bottom: 82px;
 
     width: calc(100vw - 20px);
+
+    max-height: calc(100dvh - 105px);
+
   }
 
 
   .chatbot-header {
-    padding: 14px;
+
+    padding: 13px;
+
   }
 
 
   .chatbot-header strong {
+
     font-size: 0.9rem;
+
   }
 
 
   .chatbot-body {
-    padding: 14px;
 
-    min-height: 160px;
+    padding: 13px;
+
+    min-height: 150px;
+
   }
 
 
   .chatbot-input {
-    padding: 10px;
+
+    padding: 9px;
+
   }
 
 
   .chatbot-input input,
   .chatbot-input button {
+
     height: 42px;
+
   }
 
 
   .chatbot-input button {
+
     width: 42px;
+
   }
 
 }
@@ -7728,19 +7760,57 @@ button {
   .chatbot-input input,
   .chatbot-input button,
   .chatbot-chip {
+
     transition: none;
+
   }
+
 
   .chatbot-window,
   .chatbot-message {
+
     animation: none;
+
   }
 
+
   .chatbot-typing .dot {
+
     animation: none;
+
   }
 
 }
+
+/* =========================================
+   FLOATING BUTTONS - MOBILE FINAL POSITION
+========================================= */
+
+@media (max-width: 600px) {
+
+  .chatbot-floating {
+    
+
+
+    width: 52px;
+    height: 52px;
+
+  }
+
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 380px) {
+
+  .chatbot-floating {
+    
+    width: 48px;
+    height: 48px;
+  }
+
+}
+
 
 
 /* ==========================================================
@@ -7759,11 +7829,9 @@ button {
   padding: 90px 30px 25px;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       var(--color-maroon-dark, #3b141a) 0%,
-      #4c181d 100%
-    );
+      #4c181d 100%);
 
   color: var(--color-ivory, #f8f3e8);
 
@@ -8200,11 +8268,9 @@ button {
   height: 1px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       transparent,
-      rgba(214, 173, 91, 0.55)
-    );
+      rgba(214, 173, 91, 0.55));
 }
 
 
@@ -8526,11 +8592,9 @@ button {
   overflow: hidden;
 
   background:
-    radial-gradient(
-      circle at 15% 20%,
+    radial-gradient(circle at 15% 20%,
       rgba(184, 145, 76, 0.07),
-      transparent 30%
-    ),
+      transparent 30%),
     var(--color-ivory);
 
   color: var(--color-maroon-dark);
@@ -8903,8 +8967,12 @@ button {
 
 
 
+
+
+
+
 /* =========================================================
-   PREMIUM NATYASHRI HERO
+   NATYASHRI PREMIUM HERO SECTION
 ========================================================= */
 
 .hero {
@@ -8918,7 +8986,6 @@ button {
   justify-content: center;
 
   overflow: hidden;
-
   isolation: isolate;
 
   background: #160205;
@@ -8931,35 +8998,19 @@ button {
 
 .hero-background {
   position: absolute;
-
   inset: 0;
 
   z-index: -3;
 
-  background-image:
-    url("/images/natyashri-hero.jpg");
+  background-image: url("/images/natyashri-hero.jpg");
 
   background-repeat: no-repeat;
-
-  /*
-    Slightly enlarge the image.
-
-    This crops the unwanted text/design
-    that exists inside the image itself.
-  */
   background-size: 118% auto;
-
-  /*
-    Keep the dancer toward the right.
-  */
   background-position: 72% center;
 
   transform: scale(1.01);
 
-  animation:
-    hero-image-enter 1.6s
-    cubic-bezier(0.22, 1, 0.36, 1)
-    both;
+  animation: hero-image-enter 1.6s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 
@@ -8967,9 +9018,12 @@ button {
    CINEMATIC OVERLAY
 ========================================================= */
 
+/* =========================================================
+   CINEMATIC OVERLAY - BALANCED BRIGHTNESS
+========================================================= */
+
 .hero-overlay {
   position: absolute;
-
   inset: 0;
 
   z-index: -2;
@@ -8977,30 +9031,18 @@ button {
   pointer-events: none;
 
   background:
+    linear-gradient(90deg,
+      rgba(17, 1, 5, 0.82) 0%,
+      rgba(27, 2, 7, 0.68) 23%,
+      rgba(35, 3, 8, 0.42) 43%,
+      rgba(35, 3, 8, 0.18) 63%,
+      rgba(9, 1, 3, 0.48) 100%),
 
-    /*
-      DARK LEFT SIDE
-      Helps hide the baked-in image text.
-    */
-    linear-gradient(
-      90deg,
-      rgba(17, 1, 5, 0.96) 0%,
-      rgba(27, 2, 7, 0.87) 23%,
-      rgba(35, 3, 8, 0.64) 43%,
-      rgba(35, 3, 8, 0.32) 63%,
-      rgba(9, 1, 3, 0.72) 100%
-    ),
-
-    /*
-      TOP / BOTTOM CINEMATIC VIGNETTE
-    */
-    linear-gradient(
-      180deg,
-      rgba(8, 0, 3, 0.72) 0%,
+    linear-gradient(180deg,
+      rgba(8, 0, 3, 0.38) 0%,
       transparent 22%,
       transparent 70%,
-      rgba(7, 0, 2, 0.9) 100%
-    );
+      rgba(7, 0, 2, 0.65) 100%);
 }
 
 
@@ -9012,19 +9054,16 @@ button {
   content: "";
 
   position: absolute;
-
   inset: 0;
 
   z-index: -1;
 
   pointer-events: none;
 
-  background:
-    radial-gradient(
-      ellipse at 20% 50%,
-      rgba(0, 0, 0, 0.45),
-      transparent 60%
-    );
+ background:
+  radial-gradient(ellipse at 20% 50%,
+    rgba(0, 0, 0, 0.25),
+    transparent 60%);
 }
 
 
@@ -9041,25 +9080,21 @@ button {
   left: 65%;
   top: 50%;
 
-  transform:
-    translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
   z-index: -1;
 
   pointer-events: none;
 
   background:
-    radial-gradient(
-      circle,
+    radial-gradient(circle,
       rgba(226, 178, 57, 0.13) 0%,
       rgba(226, 178, 57, 0.05) 32%,
-      transparent 70%
-    );
+      transparent 70%);
 
   filter: blur(20px);
 
-  animation:
-    hero-glow-pulse 8s ease-in-out infinite;
+  animation: hero-glow-pulse 8s ease-in-out infinite;
 }
 
 
@@ -9072,44 +9107,34 @@ button {
 
   z-index: 3;
 
-  width:
-    min(calc(100% - 40px), 900px);
+  width: min(calc(100% - 40px), 900px);
 
-  margin:
-    0 auto;
+  margin: 0 auto;
 
-  padding:
-    90px 0 115px;
+  padding: 75px 0 100px;
 
   display: flex;
-
   flex-direction: column;
 
   align-items: center;
-
   text-align: center;
 }
 
 
 /* =========================================================
-   SANSKRIT
+   SANSKRIT HEADING
 ========================================================= */
 
 .hero-sanskrit {
-  margin:
-    0 0 16px;
+  margin: 0 0 16px;
 
-  color:
-    #e5bd58;
+  color: #e5bd58;
 
-  font-family:
-    var(--font-heading);
+  font-family: var(--font-heading);
 
-  font-size:
-    clamp(0.95rem, 1.6vw, 1.25rem);
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
 
-  letter-spacing:
-    0.08em;
+  letter-spacing: 0.08em;
 
   text-shadow:
     0 0 18px rgba(224, 181, 67, 0.35);
@@ -9117,26 +9142,19 @@ button {
 
 
 /* =========================================================
-   DIVIDER
+   DECORATIVE DIVIDER
 ========================================================= */
 
 .hero-line {
-  width:
-    min(270px, 60vw);
+  width: min(270px, 60vw);
 
-  display:
-    flex;
+  display: flex;
+  align-items: center;
 
-  align-items:
-    center;
+  gap: 12px;
 
-  gap:
-    12px;
-
-  margin-bottom:
-    22px;
+  margin-bottom: 22px;
 }
-
 
 .hero-line span {
   flex: 1;
@@ -9144,32 +9162,24 @@ button {
   height: 1px;
 
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       transparent,
-      rgba(224, 180, 61, 0.85)
-    );
+      rgba(224, 180, 61, 0.85));
 }
-
 
 .hero-line span:last-child {
   background:
-    linear-gradient(
-      90deg,
+    linear-gradient(90deg,
       rgba(224, 180, 61, 0.85),
-      transparent
-    );
+      transparent);
 }
-
 
 .hero-line i {
   font-style: normal;
 
-  color:
-    #e9c35c;
+  color: #e9c35c;
 
-  font-size:
-    0.7rem;
+  font-size: 0.7rem;
 
   text-shadow:
     0 0 12px rgba(235, 193, 80, 0.7);
@@ -9177,60 +9187,60 @@ button {
 
 
 /* =========================================================
-   TITLE
+   NATYASHRI CUSTOM WORDMARK
 ========================================================= */
 
-.hero-title {
-  margin:
-    0;
+.hero-brand {
+  display: flex;
+  flex-direction: column;
 
-  color:
-    #f8f0dd;
+  align-items: center;
 
-  font-family:
-    var(--font-heading);
-
-  font-size:
-    clamp(3.5rem, 7vw, 6.8rem);
-
-  font-weight:
-    500;
-
-  line-height:
-    0.95;
-
-  letter-spacing:
-    0.02em;
-
-  text-shadow:
-    0 5px 25px rgba(0, 0, 0, 0.6);
+  width: 100%;
 }
 
 
-.hero-title span {
-  display:
-    block;
+/* Custom NatyaShri Image */
 
-  margin-top:
-    17px;
+/* =========================================
+   NATYASHRI CUSTOM WORDMARK
+========================================= */
 
-  color:
-    #e4b94e;
+.hero-wordmark {
+  display: block;
 
-  font-family:
-    var(--font-body);
+  width: clamp(360px, 38vw, 560px);
+  max-width: 100%;
 
-  font-size:
-    clamp(0.7rem, 1.35vw, 1rem);
+  height: auto;
 
-  font-weight:
-    500;
+  object-fit: contain;
 
-  letter-spacing:
-    0.3em;
+  mix-blend-mode: screen;
 
-  text-transform:
-    uppercase;
+  filter:
+    drop-shadow(0 4px 12px rgba(218, 171, 65, 0.15));
+}
+
+
+/* School Subtitle */
+
+.hero-title-subtitle {
+  display: block;
+
+  margin-top: 12px;
+
+  color: #e9bd50;
+
+  font-family: var(--font-body);
+
+  font-size: clamp(0.8rem, 1.3vw, 1rem);
+
+  font-weight: 500;
+
+  letter-spacing: 0.27em;
+
+  text-transform: uppercase;
 }
 
 
@@ -9239,26 +9249,19 @@ button {
 ========================================================= */
 
 .hero-tagline {
-  max-width:
-    760px;
+  max-width: 760px;
 
-  margin:
-    28px 0 0;
+  margin: 30px 0 0;
 
-  color:
-    #f5ead2;
+  color: #f5ead2;
 
-  font-family:
-    var(--font-heading);
+  font-family: var(--font-heading);
 
-  font-size:
-    clamp(0.95rem, 1.7vw, 1.22rem);
+  font-size: clamp(1rem, 1.7vw, 1.3rem);
 
-  line-height:
-    1.55;
+  line-height: 1.6;
 
-  letter-spacing:
-    0.035em;
+  letter-spacing: 0.025em;
 }
 
 
@@ -9267,87 +9270,71 @@ button {
 ========================================================= */
 
 .hero-description {
-  max-width:
-    650px;
+  max-width: 650px;
 
-  margin:
-    14px 0 0;
+  margin: 14px 0 0;
 
-  color:
-    rgba(248, 243, 232, 0.78);
+  color: rgba(248, 243, 232, 0.82);
 
-  font-family:
-    var(--font-body);
+  font-family: var(--font-body);
 
-  font-size:
-    clamp(0.78rem, 1.2vw, 0.95rem);
+  font-size: clamp(0.82rem, 1.2vw, 0.98rem);
 
-  line-height:
-    1.75;
+  line-height: 1.75;
 }
 
 
 /* =========================================================
-   BUTTONS
+   BUTTONS CONTAINER
 ========================================================= */
 
 .hero-actions {
-  display:
-    flex;
+  display: flex;
 
-  align-items:
-    center;
+  align-items: center;
+  justify-content: center;
 
-  justify-content:
-    center;
+  gap: 16px;
 
-  gap:
-    16px;
-
-  margin-top:
-    31px;
+  margin-top: 31px;
 }
 
 
+/* =========================================================
+   COMMON BUTTON
+========================================================= */
+
+/* =========================================================
+   COMMON HERO BUTTON
+========================================================= */
+
 .hero-button {
-  min-height:
-    54px;
+  min-height: 54px;
 
-  padding:
-    0 25px;
+  padding: 0 22px;
 
-  display:
-    inline-flex;
+  display: inline-flex;
 
-  align-items:
-    center;
+  align-items: center;
+  justify-content: center;
 
-  justify-content:
-    center;
+  gap: 11px;
 
-  gap:
-    13px;
+  border-radius: 30px;
 
-  border-radius:
-    30px;
+  font-family: var(--font-body);
 
-  font-family:
-    var(--font-body);
+  font-size: 0.72rem;
 
-  font-size:
-    0.7rem;
+  font-weight: 700;
 
-  font-weight:
-    700;
+  letter-spacing: 0.07em;
 
-  letter-spacing:
-    0.08em;
+  text-transform: uppercase;
 
-  text-transform:
-    uppercase;
+  text-decoration: none;
 
-  text-decoration:
-    none;
+  white-space: nowrap;
 
   transition:
     transform 0.35s ease,
@@ -9357,165 +9344,131 @@ button {
 
 
 /* =========================================================
-   PRIMARY
+   PRIMARY BUTTON
 ========================================================= */
 
 .hero-button-primary {
-  color:
-    #301006;
+  color: #301006;
 
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       #fff1ae,
       #efc653 50%,
-      #dca936
-    );
+      #dca936);
 
-  border:
-    1px solid #e7bd50;
+  border: 1px solid #e7bd50;
 
   box-shadow:
-    inset 0 1px 1px
-      rgba(255, 255, 255, 0.8),
-
-    0 0 0 3px
-      rgba(220, 175, 54, 0.12),
-
-    0 8px 24px
-      rgba(0, 0, 0, 0.4);
+    inset 0 1px 1px rgba(255, 255, 255, 0.8),
+    0 0 0 3px rgba(220, 175, 54, 0.12),
+    0 8px 24px rgba(0, 0, 0, 0.4);
 }
-
 
 .hero-button-primary:hover {
-  transform:
-    translateY(-3px);
+  transform: translateY(-3px);
 
   box-shadow:
-    inset 0 1px 1px
-      rgba(255, 255, 255, 0.8),
-
-    0 0 0 4px
-      rgba(220, 175, 54, 0.15),
-
-    0 0 25px
-      rgba(225, 179, 55, 0.3),
-
-    0 12px 28px
-      rgba(0, 0, 0, 0.45);
+    inset 0 1px 1px rgba(255, 255, 255, 0.8),
+    0 0 0 4px rgba(220, 175, 54, 0.15),
+    0 0 25px rgba(225, 179, 55, 0.3),
+    0 12px 28px rgba(0, 0, 0, 0.45);
 }
 
 
-.hero-button-arrow {
-  font-size:
-    1rem;
 
-  transition:
-    transform 0.3s ease;
+
+/* BUTTON ARROW */
+
+.hero-button-arrow {
+  font-size: 1rem;
+
+  transition: transform 0.3s ease;
 }
 
-
-.hero-button-primary:hover
-.hero-button-arrow {
-  transform:
-    translateX(5px);
+.hero-button-primary:hover .hero-button-arrow {
+  transform: translateX(5px);
 }
 
 
 /* =========================================================
-   SECONDARY
+   SECONDARY BUTTON
 ========================================================= */
 
 .hero-button-secondary {
-  color:
-    #f0cc66;
+  color: #f0cc66;
 
-  background:
-    rgba(30, 2, 8, 0.5);
+  background: rgba(30, 2, 8, 0.5);
 
-  border:
-    1px solid
-    rgba(225, 183, 69, 0.8);
+  border: 1px solid rgba(225, 183, 69, 0.8);
 }
 
-
 .hero-button-secondary:hover {
-  transform:
-    translateY(-3px);
+  transform: translateY(-3px);
 
-  background:
-    rgba(218, 172, 49, 0.12);
+  background: rgba(218, 172, 49, 0.12);
 
   box-shadow:
-    0 0 20px
-    rgba(225, 180, 60, 0.18);
+    0 0 20px rgba(225, 180, 60, 0.18);
+}
+
+/* =========================================================
+   HERO CTA BUTTON WIDTHS
+========================================================= */
+
+.hero-button-primary {
+  width: 250px;
+}
+
+.hero-button-secondary {
+  width: 220px;
 }
 
 
 /* =========================================================
-   SCROLL
+   SCROLL INDICATOR
 ========================================================= */
 
 .hero-scroll {
-  position:
-    absolute;
+  position: absolute;
 
-  left:
-    50%;
+  left: 50%;
+  bottom: 22px;
 
-  bottom:
-    22px;
+  transform: translateX(-50%);
 
-  transform:
-    translateX(-50%);
+  z-index: 4;
 
-  z-index:
-    4;
+  display: flex;
 
-  display:
-    flex;
+  flex-direction: column;
 
-  flex-direction:
-    column;
+  align-items: center;
 
-  align-items:
-    center;
+  gap: 6px;
 
-  gap:
-    6px;
+  color: rgba(248, 243, 232, 0.75);
 
-  color:
-    rgba(248, 243, 232, 0.65);
+  font-size: 0.58rem;
 
-  font-size:
-    0.58rem;
+  letter-spacing: 0.17em;
 
-  letter-spacing:
-    0.17em;
+  text-transform: uppercase;
 
-  text-transform:
-    uppercase;
-
-  text-decoration:
-    none;
+  text-decoration: none;
 }
-
 
 .hero-scroll:hover {
-  color:
-    #e4bb50;
+  color: #e4bb50;
 }
 
-
 .scroll-arrow {
-  color:
-    #dfb94e;
+  display: block;
 
-  font-size:
-    1rem;
+  color: #dfb94e;
 
-  animation:
-    scroll-bounce 2s ease-in-out infinite;
+  font-size: 1.2rem;
+
+  animation: scroll-bounce 2s ease-in-out infinite;
 }
 
 
@@ -9524,19 +9477,14 @@ button {
 ========================================================= */
 
 @keyframes hero-image-enter {
-
   from {
     opacity: 0;
-
-    transform:
-      scale(1.06);
+    transform: scale(1.06);
   }
 
   to {
     opacity: 1;
-
-    transform:
-      scale(1.01);
+    transform: scale(1.01);
   }
 }
 
@@ -9558,223 +9506,162 @@ button {
 
   0%,
   100% {
-    transform:
-      translate(-50%, 0);
+    transform: translateY(0);
   }
 
   50% {
-    transform:
-      translate(-50%, 6px);
+    transform: translateY(6px);
   }
 }
 
 
 /* =========================================================
-   TABLET
+   TABLET RESPONSIVENESS
 ========================================================= */
 
 @media (max-width: 900px) {
 
   .hero {
-    min-height:
-      calc(100svh - 92px);
+    min-height: calc(100svh - 92px);
   }
 
   .hero-background {
-
-    /*
-      More aggressive crop on tablet
-      to remove unwanted image text.
-    */
-    background-size:
-      auto 108%;
-
-    background-position:
-      70% center;
+    background-size: auto 108%;
+    background-position: 70% center;
   }
 
-  .hero-overlay {
-    background:
-      linear-gradient(
-        180deg,
-        rgba(14, 1, 4, 0.78) 0%,
-        rgba(27, 2, 7, 0.52) 45%,
-        rgba(9, 1, 3, 0.9) 100%
-      );
-  }
+ .hero-overlay {
+  background:
+    linear-gradient(180deg,
+      rgba(14, 1, 4, 0.55) 0%,
+      rgba(27, 2, 7, 0.35) 45%,
+      rgba(9, 1, 3, 0.72) 100%);
+}
 
   .hero-content {
-    padding:
-      75px 0 105px;
+    padding: 65px 0 105px;
   }
+
+  .hero-wordmark {
+    width: clamp(280px, 44vw, 380px);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
 }
 
 
 /* =========================================================
-   MOBILE
+   MOBILE RESPONSIVENESS
 ========================================================= */
 
 @media (max-width: 600px) {
 
   .hero {
-    min-height:
-      calc(100svh - 88px);
+    min-height: calc(100svh - 88px);
   }
-
 
   .hero-background {
-
-    /*
-      IMPORTANT:
-      Mobile uses a much stronger crop.
-    */
-
-    background-size:
-      auto 112%;
-
-    /*
-      Move the dancer toward the
-      center/right side.
-    */
-
-    background-position:
-      67% center;
+    background-size: auto 112%;
+    background-position: 67% center;
   }
-
 
   .hero-overlay {
-
-    background:
-      linear-gradient(
-        180deg,
-        rgba(14, 1, 4, 0.76) 0%,
-        rgba(24, 2, 7, 0.58) 42%,
-        rgba(9, 1, 3, 0.94) 100%
-      );
-  }
-
+  background:
+    linear-gradient(180deg,
+      rgba(14, 1, 4, 0.58) 0%,
+      rgba(24, 2, 7, 0.40) 42%,
+      rgba(9, 1, 3, 0.82) 100%);
+}
 
   .hero-content {
+    width: calc(100% - 36px);
 
-    width:
-      calc(100% - 32px);
-
-    padding:
-      65px 0 100px;
+    padding: 55px 0 125px;
   }
-
 
   .hero-sanskrit {
-    font-size:
-      0.9rem;
+    font-size: 0.9rem;
   }
-
 
   .hero-line {
-    width:
-      210px;
+    width: 210px;
 
-    margin-bottom:
-      20px;
+    margin-bottom: 20px;
   }
 
+  .hero-wordmark {
+    display: block;
 
-  .hero-title {
+    width: min(310px, 78vw);
+    max-width: 100%;
 
-    font-size:
-      clamp(3rem, 15vw, 4.3rem);
+    height: auto;
 
-    line-height:
-      0.95;
+    object-fit: contain;
   }
 
+  .hero-title-subtitle {
+    margin-top: 10px;
 
-  .hero-title span {
+    font-size: 0.58rem;
 
-    margin-top:
-      14px;
-
-    font-size:
-      0.58rem;
-
-    letter-spacing:
-      0.19em;
+    letter-spacing: 0.17em;
   }
-
 
   .hero-tagline {
+    max-width: 380px;
 
-    margin-top:
-      23px;
+    margin-top: 25px;
 
-    font-size:
-      0.9rem;
+    font-size: 0.95rem;
 
-    line-height:
-      1.55;
+    line-height: 1.6;
   }
-
 
   .hero-description {
+    max-width: 360px;
 
-    margin-top:
-      13px;
+    margin-top: 14px;
 
-    font-size:
-      0.76rem;
+    font-size: 0.78rem;
 
-    line-height:
-      1.7;
+    line-height: 1.75;
   }
-
 
   .hero-actions {
+    width: 100%;
 
-    width:
-      100%;
+    flex-direction: column;
 
-    flex-direction:
-      column;
+    align-items: center;
 
-    gap:
-      11px;
+    gap: 13px;
 
-    margin-top:
-      26px;
+    margin-top: 27px;
   }
-
 
   .hero-button {
+    width: min(100%, 340px);
 
-    width:
-      min(100%, 300px);
-
-    min-height:
-      51px;
+    min-height: 53px;
   }
-
 
   .hero-scroll {
+    bottom: 12px;
 
-    bottom:
-      15px;
-
-    font-size:
-      0.52rem;
+    font-size: 0.52rem;
   }
-
 
   .hero-glow {
+    width: 400px;
 
-    width:
-      400px;
+    height: 400px;
 
-    height:
-      400px;
-
-    left:
-      50%;
+    left: 50%;
   }
+
 }
 
 
@@ -9785,47 +9672,59 @@ button {
 @media (max-width: 380px) {
 
   .hero-background {
-    background-size:
-      auto 115%;
+    background-size: auto 115%;
 
-    background-position:
-      65% center;
+    background-position: 65% center;
   }
-
 
   .hero-content {
-    padding:
-      55px 0 90px;
+    padding: 48px 0 120px;
   }
 
-
-  .hero-title {
-    font-size:
-      2.75rem;
+  .hero-wordmark {
+    width: min(285px, 75vw);
   }
 
+  .hero-title-subtitle {
+    font-size: 0.52rem;
 
-  .hero-title span {
-    font-size:
-      0.52rem;
-
-    letter-spacing:
-      0.15em;
+    letter-spacing: 0.14em;
   }
-
 
   .hero-tagline {
-    font-size:
-      0.84rem;
+    font-size: 0.88rem;
   }
-
 
   .hero-description {
-    font-size:
-      0.72rem;
+    font-size: 0.73rem;
   }
+
+  .hero-button {
+    font-size: 0.67rem;
+  }
+
 }
 
+
+/* =========================================
+   FINAL RESPONSIVE HERO CTA BUTTONS
+========================================= */
+
+@media (max-width: 600px) {
+
+  .hero-button {
+    width: min(100%, 300px);
+
+    max-width: 300px;
+
+    min-height: 54px;
+
+    padding: 0 18px;
+
+    font-size: 0.70rem;
+  }
+
+}
 
 /* =========================================================
    REDUCED MOTION
@@ -9837,41 +9736,409 @@ button {
   .hero *::before,
   .hero *::after {
 
-    animation:
-      none !important;
+    animation: none !important;
 
-    transition:
-      none !important;
-  }
-}
-
-/* ==========================================
-   FIX DOUBLE ENQUIRE NOW BUTTON
-========================================== */
-
-/* DESKTOP */
-@media (min-width: 769px) {
-
-  .navbar .mobile-nav-button,
-  .navbar .navbar-links .mobile-nav-button {
-    display: none !important;
-  }
-
-  .navbar .navbar-button {
-    display: inline-flex;
+    transition: none !important;
   }
 
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
+/* =========================================
+   MOBILE HERO FINAL REFINEMENTS
+========================================= */
 
-  .navbar .navbar-button {
-    display: none !important;
+@media (max-width: 600px) {
+
+  /* Hero Section */
+  .hero {
+    min-height: 100svh;
+    overflow: hidden;
   }
 
-  .navbar .navbar-links .mobile-nav-button {
+  /* Background positioning */
+  .hero-background {
+    background-position: 65% center;
+  }
+
+  /* Hero Content */
+  .hero-content {
+    width: 100%;
+    padding: 35px 18px 90px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Sanskrit */
+  .hero-sanskrit {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  /* Decorative Line */
+  .hero-line {
+    margin-bottom: 22px;
+  }
+
+  /* Brand Container */
+  .hero-brand {
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 32px;
+  }
+
+  /* NatyaShri Wordmark */
+  .hero-wordmark {
+    display: block;
+    width: min(340px, 82vw);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* Brand Subtitle */
+  .hero-title-subtitle {
+    margin-top: 10px;
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-align: center;
+  }
+
+  /* Tagline */
+  .hero-tagline {
+    font-size: 1rem;
+    line-height: 1.65;
+    max-width: 380px;
+    margin: 0 auto 18px;
+    text-align: center;
+  }
+
+  /* Description */
+  .hero-description {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    max-width: 370px;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+
+  /* Buttons */
+  .hero-actions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hero-button {
+    width: 100%;
+    max-width: 390px;
+    min-height: 58px;
+    justify-content: center;
+  }
+
+  /* Scroll Indicator */
+  .hero-scroll {
+    bottom: 12px;
+    font-size: 0.65rem;
+    z-index: 3;
+  }
+
+}
+
+/* =========================================
+   NATYASHRI - FINAL MOBILE HERO LAYOUT
+========================================= */
+
+@media (max-width: 600px) {
+
+  /* HERO SECTION */
+  .hero {
+    width: 100%;
+    min-height: 100svh;
+    height: auto;
+    overflow: hidden;
+    background-position: 65% center;
+  }
+
+  /* HERO CONTENT */
+  .hero-content {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    padding: 38px 22px 165px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  /* SANSKRIT TEXT */
+  .hero-sanskrit {
+    font-size: 1.15rem;
+    line-height: 1.5;
+
+    margin-bottom: 18px;
+
+    text-align: center;
+  }
+
+  /* DECORATIVE DIVIDER */
+  .hero-line {
+    width: 75%;
+    max-width: 230px;
+
+    margin: 0 auto 24px;
+  }
+
+  /* BRAND */
+  .hero-brand {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto 30px;
+  }
+
+  /* NATYASHRI WORDMARK */
+  .hero-wordmark {
+    display: block;
+
+    width: min(310px, 78vw);
+    max-width: 100%;
+
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* SCHOOL SUBTITLE */
+  .hero-title-subtitle {
+    margin-top: 9px;
+
+    font-size: 0.65rem;
+    letter-spacing: 0.19em;
+
+    text-align: center;
+  }
+
+  /* TAGLINE */
+  .hero-tagline {
+    max-width: 390px;
+    width: 100%;
+
+    margin: 0 auto 18px;
+
+    font-size: 1rem;
+    line-height: 1.65;
+
+    text-align: center;
+  }
+
+  /* DESCRIPTION */
+  .hero-description {
+    max-width: 370px;
+    width: 100%;
+
+    margin: 0 auto 28px;
+
+    font-size: 0.88rem;
+    line-height: 1.75;
+
+    text-align: center;
+  }
+
+  /* CTA BUTTONS */
+  .hero-actions {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 13px;
+  }
+
+  .hero-button {
+    width: 100%;
+    max-width: 390px;
+
+    min-height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  /* SCROLL INDICATOR */
+  .hero-scroll {
+    display: none;
+  }
+}
+
+
+/* =========================================
+   FLOATING CHATBOT - MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .chatbot-floating {
+   
+    width: 52px;
+    height: 52px;
+
+   
+  }
+
+  .chatbot-window {
+    position: fixed;
+
+    right: 12px;
+    bottom: 145px;
+
+    width: calc(100vw - 24px);
+    max-width: 370px;
+
+    max-height: calc(100dvh - 175px);
+
+    z-index: 1003;
+  }
+
+}
+
+
+/* =========================================
+   WHATSAPP BUTTON - MOBILE FINAL POSITION
+========================================= */
+
+@media (max-width: 600px) {
+
+
+}
+
+
+/* SMALL MOBILE DEVICES */
+
+@media (max-width: 380px) {
+
+  .hero-content {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .hero-wordmark {
+    width: 75vw;
+  }
+
+  .hero-tagline {
+    font-size: 0.93rem;
+  }
+
+  .hero-description {
+    font-size: 0.82rem;
+  }
+
+  .chatbot-floating {
+   
+
+    width: 48px;
+    height: 48px;
+  }
+
+ 
+
+}
+
+/* =========================================
+   INTERMEDIATE SCREEN RESPONSIVENESS
+========================================= */
+
+@media (min-width: 601px) and (max-width: 700px) {
+
+  .hero-wordmark {
+    width: min(340px, 65vw);
+  }
+
+  .hero-brand {
+    margin-bottom: 20px;
+  }
+
+}
+
+/* =========================================
+   FLOATING CONTACT GROUP
+========================================= */
+
+.floating-contact-group {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1001;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .floating-contact-group {
+    right: 20px;
+    bottom: 20px;
+    gap: 12px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .floating-contact-group {
+    right: 16px;
+    bottom: 16px;
+    gap: 10px;
+  }
+}
+
+/* =========================================
+   FINAL HERO CTA BUTTON WIDTH CONTROL
+========================================= */
+
+/* Desktop and Tablet */
+.hero-button-primary {
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.hero-button-secondary {
+  width: 220px;
+  box-sizing: border-box;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  .hero-button {
+    width: 100%;
+    max-width: 300px;
+
+    min-height: 54px;
+
+    padding: 0 16px;
+
+    box-sizing: border-box;
   }
 
 }

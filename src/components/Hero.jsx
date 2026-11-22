@@ -24,10 +24,21 @@ function Hero() {
           <span></span>
         </div>
 
-        <h1 className="hero-title">
-          NatyaShri
-          <span>School of Performing Arts</span>
-        </h1>
+       {/* NATYASHRI CUSTOM WORDMARK */}
+
+<div className="hero-brand">
+
+  <img
+  src="/images/NatyaShri_hero.png"
+  alt="NatyaShri"
+  className="hero-wordmark"
+/>
+
+  <span className="hero-title-subtitle">
+    School of Performing Arts
+  </span>
+
+</div>
 
         <p className="hero-tagline">
           Preserving Tradition. Nurturing Artists. Creating Excellence.

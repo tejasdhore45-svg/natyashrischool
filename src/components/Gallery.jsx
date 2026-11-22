@@ -7,35 +7,26 @@ function Gallery() {
 
     // PERFORMANCES
     {
-      image: "/images/student-performance1.jpg",
+      image: "/images/Performance1.webp",
       category: "Performances",
       title: "Classical Performance"
     },
     {
-      image: "/images/student-performance2.jpg",
+      image: "/images/Performance2.webp",
       category: "Performances",
       title: "Stage Performance"
     },
     {
-      image: "/images/student-performance3.jpg",
+      image: "/images/Performance3.webp",
       category: "Performances",
       title: "Student Performance"
     },
     {
-      image: "/images/student-performance4.jpg",
+      image: "/images/Performance4.webp",
       category: "Performances",
       title: "Student Performance"
     },
-    {
-      image: "/images/student-performance5.jpg",
-      category: "Performances",
-      title: "Student Performance"
-    },
-    {
-      image: "/images/student-performance6.jpg",
-      category: "Performances",
-      title: "Student Performance"
-    },
+    
 
     // STUDENTS
     {
@@ -88,67 +79,58 @@ function Gallery() {
 
     // WORKSHOPS
     {
-      image: "/images/workshop1.jpg",
+      image: "/images/Workshop1.webp",
       category: "Workshops",
       title: "Classical Dance Workshop"
     },
     {
-      image: "/images/workshop2.jpg",
+      image: "/images/Workshop2.webp",
       category: "Workshops",
       title: "Bharatanatyam Workshop"
     },
     {
-      image: "/images/workshop3.jpg",
+      image: "/images/Workshop3.webp",
       category: "Workshops",
       title: "Classical Dance Workshop"
     },
     {
-      image: "/images/workshop4.jpg",
+      image: "/images/Workshop4.webp",
       category: "Workshops",
       title: "Bharatanatyam Workshop"
     },
     {
-      image: "/images/workshop5.jpg",
+      image: "/images/Workshop5.webp",
+      category: "Workshops",
+      title: "Dance Workshop"
+    },
+    
+    {
+      image: "/images/Workshop6.webp",
       category: "Workshops",
       title: "Dance Workshop"
     },
     {
-      image: "/images/workshop10.jpg",
-      category: "Workshops",
-      title: "Classical Dance Workshop"
-    },
-    {
-      image: "/images/workshop11.jpg",
-      category: "Workshops",
-      title: "Dance Workshop"
-    },
-    {
-      image: "/images/workshop12.jpg",
+      image: "/images/Workshop7.webp",
       category: "Workshops",
       title: "Bharatanatyam Workshop"
     },
     {
-      image: "/images/workshop13.jpg",
+      image: "/images/Workshop8.webp",
       category: "Workshops",
       title: "Classical Dance Workshop"
     },
     {
-      image: "/images/workshop14.jpg",
+      image: "/images/Workshop9.webp",
+      category: "Workshops",
+      title: "Dance Workshop"
+    },
+   {
+      image: "/images/Workshop10.webp",
       category: "Workshops",
       title: "Dance Workshop"
     },
 
-    // EVENTS
-    {
-      image: "/images/gallery-11.jpg",
-      category: "Events",
-      title: "Cultural Program"
-    },
-    {
-      image: "/images/gallery-12.jpg",
-      category: "Events",
-      title: "NatyaShri Event"
-    },
+    
 
 
     // CLASSES
@@ -167,11 +149,7 @@ function Gallery() {
       category: "Classes",
       title: "Classical Dance Practice"
     },
-    {
-      video: "/images/classes4.mp4",
-      category: "Classes",
-      title: "Bharatanatyam Performance"
-    },
+   
     {
       video: "/images/classes5.mp4",
       category: "Classes",
@@ -186,7 +164,6 @@ function Gallery() {
     "Students",
     "Guru",
     "Workshops",
-    "Events"
   ];
 
   const filteredItems =

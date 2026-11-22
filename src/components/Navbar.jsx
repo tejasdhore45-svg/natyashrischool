@@ -84,16 +84,7 @@ function Navbar() {
             </a>
 
 
-            {/* Mobile CTA */}
-
-            <a
-              href="#admission"
-              className="mobile-nav-button"
-              onClick={closeMenu}
-            >
-              Enquire Now
-              <span>→</span>
-            </a>
+          
 
           </nav>
 

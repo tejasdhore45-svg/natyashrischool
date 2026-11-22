@@ -12,6 +12,7 @@ import Admission from "./components/Admission";
 import WhatsAppButton from "./components/WhatsAppButton";
 import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -23,17 +24,21 @@ function App() {
         <Introduction />
         <Guru />
         <Courses />
-         <Gallery />
-         <Videos/>
-         <Testimonials/>
-         <Locations/>
-         <Contact/>
-          <WhatsAppButton/>
-         <Admission/>
-         <Chatbot/>
-         <Footer/>
+        <Gallery />
+        <Videos />
+        <Testimonials />
+        <Locations />
+        <Contact />
+        <Admission />
+        <Footer />
       </main>
-    </>
+
+      {/* Global Floating Contact Buttons */}
+<div className="floating-contact-group">
+  <Chatbot />
+  <WhatsAppButton />
+</div>
+</>
   );
 }
 
